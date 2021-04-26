@@ -135,6 +135,95 @@ X -Out 8 500 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# leds_0805_1-0000598
+#
+DEF leds_0805_1-0000598 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "leds_0805_1-0000598" 0 -100 50 H I C CNN
+F2 "leds_0805:1-0000598" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000598" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "Green" 25 -100 50 H V C CNN "PValue"
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mechanical_Fiducial_1mm_2mm
+#
+DEF mechanical_Fiducial_1mm_2mm FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "mechanical_Fiducial_1mm_2mm" 0 125 50 H I C CNN
+F2 "mechanical:Fiducial_1mm_Mask2mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "Fiducial" 0 0 50 H I C CNN "PValue"
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
+# mechanical_M3_ISO_7380
+#
+DEF mechanical_M3_ISO_7380 H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "mechanical_M3_ISO_7380" 0 125 50 H I C CNN
+F2 "mechanical:MountingHole_3.2mm_M3_ISO7380" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "M3" 0 0 50 H I C CNN "PValue"
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# misc_barepcb
+#
+DEF misc_barepcb PCB 0 40 Y Y 1 F N
+F0 "PCB" -100 150 50 H V C CNN
+F1 "misc_barepcb" 0 0 50 H V C CNN
+F2 "misc:barepcb" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "Bare PCB" 0 0 50 H I C CNN "PValue"
+DRAW
+S -200 100 200 -100 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# np_connectors_NP_Conn_01x04
+#
+DEF np_connectors_NP_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "np_connectors_NP_Conn_01x04" 0 -300 50 H I C CNN
+F2 "np_connectors:PinHeader_1x04_P2.54mm_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "NP_Conn_01x04" 0 0 50 H V C CNN "PValue"
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power_+5V
 #
 DEF power_+5V #PWR 0 0 Y Y 1 F P
@@ -173,6 +262,36 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# resistors_0603_1-0000008
+#
+DEF resistors_0603_1-0000008 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "resistors_0603_1-0000008" 0 0 50 V I C CNN
+F2 "resistors_0603:1-0000008" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000008" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "150" 0 0 50 V V C CNN "PValue"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
