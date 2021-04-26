@@ -1,4 +1,4 @@
-update=4/22/2021 12:38:57 PM
+update=4/26/2021 4:25:11 PM
 version=1
 last_client=kicad
 [general]
@@ -20,12 +20,12 @@ SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
-LabSize=50
+LabSize=138
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=Op_Amp_demo_PCB.net
 CopperLayerCount=2
 BoardThickness=0.04064
 AllowMicroVias=0
@@ -80,7 +80,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
