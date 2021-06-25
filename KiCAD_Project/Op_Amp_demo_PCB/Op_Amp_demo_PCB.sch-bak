@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Op Amp Demo"
-Date "2021-04-19"
-Rev "1.0"
+Date "2021-06-25"
+Rev "1.1"
 Comp "Leeman Geophysical LLC"
 Comment1 "(479) 373-3736"
 Comment2 "Siloam Springs, AR 72761"
@@ -3449,20 +3449,7 @@ Connection ~ 8875 3250
 Wire Wire Line
 	8875 3250 8100 3250
 Wire Wire Line
-	8100 4600 8100 4725
-Wire Wire Line
 	8100 4600 8300 4600
-$Comp
-L power:GND #PWR0122
-U 1 1 6087D477
-P 8100 4725
-F 0 "#PWR0122" H 8100 4475 50  0001 C CNN
-F 1 "GND" H 8105 4552 50  0000 C CNN
-F 2 "" H 8100 4725 50  0001 C CNN
-F 3 "" H 8100 4725 50  0001 C CNN
-	1    8100 4725
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8300 4600 8500 4600
 Connection ~ 8300 4600
@@ -3948,7 +3935,7 @@ F 0 "PCB1" H 10625 6525 50  0000 L CNN
 F 1 "barepcb" H 10575 6375 50  0000 L CNN
 F 2 "misc:barepcb" H 10725 6375 50  0001 C CNN
 F 3 "" H 10725 6375 50  0001 C CNN
-F 4 "3-0000084" H 10725 6375 50  0001 C CNN "Internal Part Number"
+F 4 "3-0000090" H 10725 6375 50  0001 C CNN "Internal Part Number"
 F 5 "1" H 10725 6375 50  0001 C CNN "Populated"
 F 6 "Bare PCB" H 10725 6375 50  0001 C CNN "PValue"
 	1    10725 6375

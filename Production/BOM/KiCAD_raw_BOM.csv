@@ -45,4 +45,4 @@ Reference, Value, Footprint, Datasheet, Internal Part Number, PValue, Populated
 "R13","1-0000008","resistors_0603:1-0000008","~","1-0000008","150","1"
 "D1","1-0000598","leds_0805:1-0000598","~","1-0000598","Green","1"
 "J7","NP_Conn_01x04","np_connectors:PinHeader_1x04_P2.54mm_Vertical","~","0-0000000","NP_Conn_01x04","0"
-"PCB1","barepcb","misc:barepcb","","3-0000084","Bare PCB","1"
+"PCB1","barepcb","misc:barepcb","","3-0000090","Bare PCB","1"
