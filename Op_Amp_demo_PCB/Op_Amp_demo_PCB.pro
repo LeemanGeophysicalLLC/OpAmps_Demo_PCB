@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream:Op_Amp_demo_PCB/Op_Amp_demo_PCB.pro
 update=4/19/2021 10:16:38 AM
+=======
+update=6/25/2021 1:38:59 PM
+>>>>>>> Stashed changes:KiCAD_Project/Op_Amp_demo_PCB/Op_Amp_demo_PCB.pro
 version=1
 last_client=kicad
 [general]
@@ -249,3 +253,13 @@ uViaDrill=0.254
 dPairWidth=0.1524
 dPairGap=0.254
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=138
+ERC_TestSimilarLabels=1
